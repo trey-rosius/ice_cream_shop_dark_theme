@@ -1,0 +1,125 @@
+
+
+.menu{
+    fill:var(--color-white);
+    display: flex;
+    z-index: 1;
+
+    
+
+    
+}
+.menu-left{
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    &> *:hover{
+        fill:var(--color-primary-red);
+    }
+    &__icon{
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-right: 1rem;
+
+    }
+    &__icon--ice{
+        fill: var(--color-white);
+        padding-right: 1rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
+.menu-right{
+    display: flex;
+    align-items: center;
+    &> *:hover{
+        fill:var(--color-primary-red);
+    }
+    &__icon{
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-right: 1rem;
+    }
+}
+.side{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+  
+    margin-top: 10rem;
+    margin-right: 15rem;
+    
+
+    
+    color:var(--color-white);
+}
+.detail{
+    margin-bottom: auto;
+
+    &__title{
+     font-size: 7rem;
+     font-family: 'Great Vibes', cursive;
+    }
+    &__description{
+        font-size: 1.2rem;
+      
+       
+     
+
+    }
+
+    &__buttons{
+    display: flex;
+    
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 4rem;
+    margin-bottom: 2rem;;
+      
+    }
+    &__buttons--item{
+     
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    border-style: solid;
+    border-color: var(--color-white);
+    border-width: 1px;
+    border-radius: 3rem;
+
+    }
+    &__buttons--item:hover{
+        background-color: var(--color-primary-red);
+        color: white;
+        border-width: 1px;
+        border-radius: 3rem;
+        border-color: var(--color-primary-red);
+    }
+
+    &__footer{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+   
+
+
+    }
+    &__footer--desc{
+        font-size: 1.2rem;
+    }
+    &__footer--btn{
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: center;
+        min-width: 20%;
+        background-color: var(--color-primary-red);
+        padding: .6rem;
+        border-radius: 100px;
+
+  
+    }
+
+}
